@@ -43,8 +43,8 @@ O projeto foi desenvolvido como parte de um processo seletivo.
 
 - git checkout admin
 
-git add .
+- git add .
 
-git commit -m "apagando arquivos adm"
+- git commit -m "apagando arquivos adm"
 
-git push
+- git push
