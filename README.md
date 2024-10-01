@@ -15,18 +15,36 @@ O projeto foi desenvolvido como parte de um processo seletivo.
 
 ### Comandos usados para construir o repositório
 
-git clone https://github.com/SEU_USUARIO/avaliacao.git
+git clone [https://github.com/SEU_USUARIO/avaliacao.git](https://github.com/ortigozafe/avaliacao1.git)
 
+git checkout -b front-end
 
-bash
-Copiar código
-cd loja-hardware
-Abra o arquivo index.html em um navegador para visualizar o site:
+git add .
 
-bash
-Copiar código
-open frontend/index.html  # macOS
-start frontend/index.html  # Windows
-xdg-open frontend/index.html  # Linux
-Como Acessar o Site
-O site está hospedado no GitHub Pages. Você pode acessá-lo através do seguinte link:
+git commit -m "adicionando arquivos front"
+
+git push -u origin front-end
+
+git checkout -b admin
+
+git add .
+
+git commit -m "adicionando area do adm"
+
+git push -u origin admin
+
+git checkout front-end
+
+git add .
+
+git commit -m "apagando readme front"
+
+git push
+
+git checkout admin
+
+git add .
+
+git commit -m "apagando arquivos adm"
+
+git push
