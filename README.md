@@ -15,33 +15,33 @@ O projeto foi desenvolvido como parte de um processo seletivo.
 
 ### Comandos usados para construir o repositório
 
-git clone [https://github.com/SEU_USUARIO/avaliacao.git](https://github.com/ortigozafe/avaliacao1.git)
+- git clone [https://github.com/SEU_USUARIO/avaliacao.git](https://github.com/ortigozafe/avaliacao1.git)
 
-git checkout -b front-end
+- git checkout -b front-end
 
-git add .
+- git add .
 
-git commit -m "adicionando arquivos front"
+- git commit -m "adicionando arquivos front"
 
-git push -u origin front-end
+- git push -u origin front-end
 
-git checkout -b admin
+- git checkout -b admin
 
-git add .
+- git add .
 
-git commit -m "adicionando area do adm"
+- git commit -m "adicionando area do adm"
 
-git push -u origin admin
+- git push -u origin admin
 
-git checkout front-end
+- git checkout front-end
 
-git add .
+- git add .
 
-git commit -m "apagando readme front"
+- git commit -m "apagando readme front"
 
-git push
+- git push
 
-git checkout admin
+- git checkout admin
 
 git add .
 
